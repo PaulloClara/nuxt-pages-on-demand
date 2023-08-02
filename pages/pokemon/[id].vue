@@ -2,7 +2,7 @@
 
 <template>
   <main id="page-pokemon-name">
-    <h1>{{ $route.params.group }}</h1>
+    <h1>{{ $route.params.id }}</h1>
   </main>
 </template>
 

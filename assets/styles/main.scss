@@ -5,13 +5,27 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 1.6rem;
+  line-height: 180%;
+  letter-spacing: 0.5px;
   font-family: "Press Start 2P", cursive;
 }
 
 :root {
-  color: #fff;
+  color: $primary-text;
   font-size: 6px;
   background-color: #111;
+  overflow-x: hidden;
+}
+
+a {
+  color: $primary-text;
+  text-decoration-color: transparent;
+  transition: all 0.2s;
+
+  &:hover {
+    color: $primary-color;
+    text-decoration: underline;
+  }
 }
 
 @media (min-width: 768px) {

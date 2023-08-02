@@ -1,13 +1,13 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div id="app">
-    <nuxt-layout />
-  </div>
+  <main id="page-home">
+    <h1>HOME</h1>
+  </main>
 </template>
 
 <style lang="scss">
-#app {
-  min-height: 100vh;
+#page-home {
+  @include page-limits;
 }
 </style>

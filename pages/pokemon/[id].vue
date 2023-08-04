@@ -15,9 +15,12 @@ const pageImage = computed(
 useHead({
   title: pageTitle,
   meta: [
+    { name: "description", content: pageDescription },
     { property: "og:image", content: pageImage },
+    { property: "og:title", content: pageTitle },
     { property: "og:description", content: pageDescription },
     { property: "twitter:image", content: pageImage },
+    { property: "twitter:title", content: pageTitle },
     { property: "twitter:description", content: pageDescription },
   ],
 });

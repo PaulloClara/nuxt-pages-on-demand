@@ -1,5 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      htmlAttrs: { lang: "pt-br" },
+      title: "Pokedex",
+      meta: [{ name: "description", content: "Nuxt3 SSR Pokedex" }],
+    },
+  },
   devtools: { enabled: true },
   css: ["~/assets/styles/main.scss"],
   runtimeConfig: {

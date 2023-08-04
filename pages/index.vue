@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { pokemonList, pokemonLoading, getPokemonList } = usePokemon();
+const { pokemonList, getPokemonList } = usePokemon();
 
 getPokemonList();
 </script>

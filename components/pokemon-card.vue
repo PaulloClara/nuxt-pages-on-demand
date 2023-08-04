@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { PokemonT } from "types/pokemon";
+import type { PokemonItemT } from "types/pokemon";
 
-defineProps<{ pokemon: PokemonT }>();
+defineProps<{ pokemon: PokemonItemT }>();
 </script>
 
 <template>

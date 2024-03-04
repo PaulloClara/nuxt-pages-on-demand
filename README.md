@@ -1,63 +1,21 @@
-# Nuxt 3 Minimal Starter
+# Nuxt
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+> Projeto simples para demonstrar o ssr com o nuxt, todas as paginas são geradas estaticamente do lado do servidor em tempo de execução.
 
-## Setup
-
-Make sure to install the dependencies:
+## Scripts
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
+$ npm install # Instalar dependências
+$ npm run dev # Rodar o servidor
+$ npm run build # Construir projeto no modo ssr
+$ npm run generate # Construir projeto no modo estático
+$ npm run preview # Visualizar build do projeto
 ```
 
-## Development Server
+### Meta tags geradas sob demanda
 
-Start the development server on `http://localhost:3000`:
+![alt text](public/images/home.png)
+![alt text](public/images/bulbasaur.png)
+![alt text](public/images/pikachu.png)
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Exemplo hospedado na [netlify](https://nuxt-pokedex.netlify.app/) no modo ssr usando as netlify functions.
